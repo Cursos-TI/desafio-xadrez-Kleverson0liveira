@@ -32,6 +32,21 @@ int main() {
             casas_rainha--;
         } while (casas_rainha > 0);
    
+printf("\n"); 
+
+    //  Simulação do movimento do cavalo (usando for e while) 
+    // o cavalo se move 2 casas para baixo e uma para esquerda.
+    printf(" Movimento do Cavalo \n");
+        for(int i = 0; i <= 1; i++ ){
+
+            while (i < 2)
+            {
+                printf("Baixo\n");
+                i++;
+            };
+            printf("Esquerda\n");
+            
+        }
 
     return 0;
 }
